@@ -17,7 +17,43 @@
 ## REST 구성 요소
 - 자원 : URI
 - 자원에 대한 행위 : HTTP Method
-- 자원에 대한 행위의 내용 : HTTP Message Pay Load (HTTP 요청 보낼 때, 포함되는 데이터를 의미)
+
+# REST API URI 규칙 [^1]
+#### 1. 소문자를 사용한다.
+```
+Bad - http://example.com/Restaurants/Seoul
+Good - http://example.com/restaurants/seoul
+```
+
+#### 2. 언더바 대신 하이픈을 사용한다.
+```
+Bad - http://example.com/restaurants/seoul/high_rated
+Good - http://example.com/restaurants/seoul/high-rated
+```
+
+#### 3. URI 마지막에 슬래시를 포함하지 않는다.
+```
+Bad - http://example.com/restaurants/seoul/
+Good - http://example.com/restaurants/seoul
+```
+
+#### 4. URI에 작성되는 영어는 복수형으로 작성한다.
+```
+Bad - http://example.com/restaurant/seoul/2345/menu
+Good - http://example.com/restaurants/seoul/2345/menus
+```
+
+#### 5. 계층 관계를 나타낼 때는 슬래시를 사용한다.
+```
+Bad - http://example.com/restaurants/get-seoul
+Good - http://example.com/restaurants/seoul
+```
+
+#### 6. 파일 확장자는 URI에 포함하지 않는다.
+```
+Bad - http://example.com/restaurants/seoul/2345/menus/1.png
+Good - http://example.com/restaurants/seoul/2345/menus/1
+```
 
 # 적용할 예정
 회사에서 사용하는 API가 restful 하지 않다고 느껴졌다. post를 무분별하게 사용하는 등의 모습을 보면서 한 번 내가 바꿔보면 좋겠다는 생각에 시도하게 되었다.
@@ -39,3 +75,6 @@ router.post('/search/:client_id/:id', controller.getSpecificData);
 router.post('/data/:client_id/download/:from?/:to?', controller.downloadData);
 router.get('/qdata/:client_id/:record_id', controller.getQData);
 ```
+
+
+[^1] https://dzone.com/articles/7-rules-for-rest-api-uri-design-1
