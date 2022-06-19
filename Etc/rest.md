@@ -28,6 +28,13 @@
 - HTTP 인프라를 그대로 사용하기 때문에, REST API를 위한 별도의 인프라를 따로 구축하지 않아도 된다.
 - 데이터만 주고 받기 때문에 여러 클라이언트가 자유롭고 부담없이 사용할 수 있다.
 
+## REST API 특징
+### Client-Server Architecture
+Client와 Server로 영역을 분리한다. 유저 인터페이스와 데이터를 저장하는 두 가지를 분리하면 서버가 처리하는 부분이 줄어들고 여러 플랫폼과, 유저 인터페이스로 확장하기가 편하다. 요즘은 하나의 데이터를 웹과 앱 등에서 보여줘야 하기 때문에 이럴 때 REST API가 유용하다.
+
+### Stateless
+HTTP가 stateless한 프로토콜이기 때문에 rest 역시 무상태성을 갖는다. 즉, 서비스의 클라이언트가 동작하는 과정에서 생기는 상태 변화에 대해서 서버는 관여하지 않고 오직 클라이언트에서 감당한다. 따라서 서버에 요청을 보낼 때는 서버가 요청을 해결하기 위한 정보들을 포함하고 있어야 한다.
+
 # REST API URI 규칙 [^1]
 #### 1. 소문자를 사용한다.
 ```
@@ -88,3 +95,4 @@ router.get('/qdata/:client_id/:record_id', controller.getQData);
 
 
 [^1] https://dzone.com/articles/7-rules-for-rest-api-uri-design-1
+
