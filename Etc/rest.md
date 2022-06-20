@@ -1,4 +1,7 @@
-# Rest
+## REST 탄생 배경
+HTTP 주요 저자 중 한 사람인 Roy fielding은 그 당시 HTTP 설계의 우수성에 비해 제대로 사용되고 있지 않다고 느껴서 웹의 장점을 최대한 활용할 수 있는 아키텍처로 REST를 발표했다.
+
+# REST
 **`Representational State Transfer`** 의 약자이다.
 말 그대로 자원을 이름으로 구분하여 해당 자원의 상태를 주고 받는 모든 것을 의미한다.
 
