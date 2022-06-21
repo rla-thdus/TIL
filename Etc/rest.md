@@ -21,7 +21,7 @@ HTTP 주요 저자 중 한 사람인 Roy fielding은 그 당시 HTTP 설계의 �
 ## REST 구성 요소
 - 자원 : URI
 - 자원에 대한 행위 : HTTP Method (GET, POST, PUT, DELETE)
-- 표현
+- 표현 : 클라이언트와 서버가 데이터를 주고 받는 형태 (json, xml ...)
 
 #### 자원이란
 해당 소프트웨어가 관리하는 모든 것을 말한다.
