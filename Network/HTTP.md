@@ -9,9 +9,13 @@
 > - 서버 간에 데이터를 주고 받을 때도 대부분 HTTP를 사용한다.
 <br>
 
-## HTTP 특징
+## HTTP 특징 [^1]
 ### Client-Server
 클라이언트가 요청을 위한 연결을 열고 응답을 받을 때 까지 기다리는 Client-Server 모델 구조이다. 
 
 ### Stateless protocol
 서버의 응답이 클라이언트의 세션 연결 상태와 독립적이다. 즉, 서버에 client의 동작이나 상태 정보를 저장하지 않는다.
+
+
+[^1] https://developer.mozilla.org/ko/docs/Web/HTTP/Overview
+
