@@ -14,7 +14,7 @@
 > 클라이언트의 요청이 있을 때 서버가 응답하는 **`단방향 통신`** 이다.<br>
 > 서버는 클라이언트에 요청을 하지 않고, 클라이언트가 보낸 요청에 대한 응답만 보낸다.<br>
 
-![](./client-server-model.png)
+![](./Image/client-server-model.png)
 
 ### Stateless protocol
 서버의 응답이 클라이언트의 세션 연결 상태와 독립적이다. 즉, 서버에 client의 동작이나 상태 정보를 저장하지 않는다.
@@ -28,5 +28,3 @@
 
 
 [^1] https://developer.mozilla.org/ko/docs/Web/HTTP/Overview
-
-
