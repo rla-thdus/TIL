@@ -62,6 +62,8 @@ HTTP 통신 초기에 서버는 응답 후에 바로 클라이언트의 연결�
 서버와 클라이언트가 간에 데이터가 교환되는 방식으로 요청(Request)과 응답(Response)가 존재한다.
 
 ## 요청(Request), 응답(Response)의 구조
+<br>
+
 ![](./Image/HttpMessage.png)
 
 ### 1. start line (시작 줄)
@@ -79,15 +81,17 @@ HTTP 통신 초기에 서버는 응답 후에 바로 클라이언트의 연결�
 ### 4. body
 - 요청과 관련된 내용(HTML 폼 콘텐츠 등)이 옵션으로 들어가거나, 응답과 관련된 문서(document)가 들어간다.
 - 본문의 존재 유무 및 크기는 첫 줄과 HTTP 헤더에 명시된다.
+<br>
 
 > start line과 headers를 묶어 그냥 요청이나 응답의 헤드라고도 한다.<br>
 > payload는 body라고 이야기 한다.
 
+<br>
 
+---
 
-
-
-
-
+<br>
 
 [^1] https://developer.mozilla.org/ko/docs/Web/HTTP/Overview
+[^2] https://developer.mozilla.org/ko/docs/Web/HTTP/Messages
+
