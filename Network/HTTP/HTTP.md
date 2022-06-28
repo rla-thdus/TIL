@@ -86,12 +86,21 @@ HTTP 통신 초기에 서버는 응답 후에 바로 클라이언트의 연결�
 > start line과 headers를 묶어 그냥 요청이나 응답의 헤드라고도 한다.<br>
 > payload는 body라고 이야기 한다.
 
-<br>
+## 요청(Request) 메시지
+### 1. start line (시작 줄)
+- **`HTTP 메서드`** (Get, Post, Put, Delete, Head, Options)를 사용해 `서버가 수행해야 하는 동작`을 나타낸다.
+    > #### [HTTP 메서드 종류](./HTTP_Method.md)
+    
+- 요청 타겟
 
+- **`HTTP 버전`** 을 표시하여 응답 메시지에서 작성하는 구조를 결정한다.
 ---
 
+### 2. headers
+
+
 <br>
 
-[^1] https://developer.mozilla.org/ko/docs/Web/HTTP/Overview
+[^1] https://developer.mozilla.org/ko/docs/Web/HTTP/Overview<br>
 [^2] https://developer.mozilla.org/ko/docs/Web/HTTP/Messages
 
