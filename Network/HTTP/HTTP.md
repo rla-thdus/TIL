@@ -91,13 +91,39 @@ HTTP 통신 초기에 서버는 응답 후에 바로 클라이언트의 연결�
 - **`HTTP 메서드`** (Get, Post, Put, Delete, Head, Options)를 사용해 `서버가 수행해야 하는 동작`을 나타낸다.
     > #### [HTTP 메서드 종류](./HTTP_Method.md)
     
-- 요청 타겟
+- **`요청 타겟`** 은 주로 URL, 프로토콜, 포트 도메인의 절대 경로로 나타낼 수 있으며 RequestContext에 의해 특정지어 진다.
+    - 요청 타겟 포맷은 HTTP 메소드에 의해 결정된다.
+    <br>
+ 
+    > ### - origin 형식
+    > 끝에 `?` 와 쿼리 문자열이 붙는 절대 경로이다. 일반적인 방식으로 `GET`, `POST`, `HEAD`, `OPTIONS` HTTP 메서드와 사용된다.
+    > ```
+    > POST / HTTP 1.1
+    > GET /background.png HTTP/1.0
+    > HEAD /test.html?query=alibaba HTTP/1.1
+    > OPTIONS /anypage.html HTTP/1.0
+    > ```
+    > ### - absolute 형식
+    > 완전한 URL 형식이다. 프록시에 연결하는 경우 대부분 `GET` 과 함께 사용된다.
+    > ```
+    > `GET http://developer.mozilla.org/en-US/docs/Web/HTTP/Messages HTTP/1.1`
+    > ```
+    > ### - authority 형식
+    > 도메인 이름 및 포트 번호로 이뤄진 URL 형식이다. HTTP 터널을 함께 구축하는 경우에만 `CONNECT` 와 함께 사용할 수 있다.
+    > ```
+    > `CONNECT developer.mozilla.org:80 HTTP/1.1`
+    > ```
+    > ### - asterisk
+    > `OPTIONS` 와 함께 `*` 로 서버 전체를 나타낼 때 사용된다.
+    > ```
+    > `OPTIONS * HTTP/1.1`
+    > ```
 
-- **`HTTP 버전`** 을 표시하여 응답 메시지에서 작성하는 구조를 결정한다.
----
+- **`HTTP 버전`** 을 표시하여 응답 메시지에서 써야 할 HTTP 버전을 알려주는 역할을 한다.
 
 ### 2. headers
 
+---
 
 <br>
 
