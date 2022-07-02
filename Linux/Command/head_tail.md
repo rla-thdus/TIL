@@ -43,3 +43,5 @@
     tail -f [file] // 문서 끝에 10줄이 나오고 나서 종료되는게 아니라 대기하면서 새로운게 추가될 때마다 출력된다.
     tail -F [file] // 문서가 지워졌다가 새로 생겨도 계속 follow 한다.
     ```
+
+[^1] https://www.inflearn.com/course/command-line/dashboard
