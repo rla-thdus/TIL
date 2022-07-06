@@ -94,6 +94,44 @@ no-transform
 ### Request Header [^3]
 HTTP 요청에서 사용되지만 request context와는 관련이 없는 헤더이다.
 
+#### 1. accept
+- 요청자가 원하는 미디어의 타입 및 우선 순위를 표현한다.
+- accept는 부속 속성이 있다. (`accept-*`)
+
+```
+Accept: application/json, text/plain, */*
+-> json > text > all type 순서로 받는다는 표현이다.
+
+Accept-Language: en-US,en;q=0.5
+-> 언어는 en이라는 표현이다. q는 가중치다.
+
+Accept-Encoding: gzip, deflate, br
+-> gzip, deflate, br(Brotli) 등등의 압축 포맷을 받는다는 표현이다.
+```
+
+#### 2. User-Agent
+- 요청자의 소프트웨어 정보를 나타낸다. 
+    - 소프트웨어 정보 : OS, 브라우저, 기타 버전 정보
+
+```
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+```
+
+#### 3. cookie
+- 서버에 의해서 이전에 저장된 쿠키를 포함시키는 속성이다.
+
+```
+cookie: NNB=5HTAB5CDIDJSE; nx_ssl=16521; ASID=78946516018157006132546546
+```
+
+#### 4. refer
+- 현재 요청을 보낸 주소의 절대 혹은 부분 주소를 포함한다.
+
+```
+referer: https://www.naver.com/
+
+referrer-policy: 얼마나 많은 리퍼러 정보를 포함하는지 알려준다. (오타 내가 낸게 아니라 오타가 스펙이 되었다 한다)
+```
 
 ### Response Header [^4]
 위치 또는 서버의 정보(이름, 버전)와 같이 응답에 대한 부가적인 정보를 갖는 헤더이다.
