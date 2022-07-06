@@ -175,6 +175,27 @@ date: Wed, 06 Jul 2022 11:26:50 GMT
 ### Entity Header [^5]
 컨텐츠 길이나 MIME 타입과 같이 Entity Body에 대한 자세한 정보를 포함하는 헤더이다.
 
+#### 1. content-length
+- 요청자에게 보내지는 본문을 바이트 단위로 나타낸다.
+
+```
+content-length: 350
+```
+
+#### 2. content-language
+- 요청자에게 보내지는 본문의 언어를 나타낸다.
+
+```
+content-language: ko-KR
+```
+
+#### 3. content-encoding
+- 요청자에게 보내지는 본문의 인코딩 포맷을 표현한다.
+
+```
+content-encoding: gzip
+```
+
 ---
 
 [^1] https://developer.mozilla.org/ko/docs/Web/HTTP/Headers<br>
