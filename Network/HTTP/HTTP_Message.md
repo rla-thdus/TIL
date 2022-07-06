@@ -65,7 +65,7 @@
 - HTTP header의 기본 구조를 따른다.
 - `대소문자 상관 없는 문자열:헤더에 따라 다른 값` 형식이다.
 - 다양한 종류의 header가 있는데 다음과 같은 그룹으로 나눌 수 있다.
-    - General, Request, Entity
+    - [General, Request, Entity](./Header.md)
 
 ### 3. Body
 - 요청의 마지막 부분에 존재한다.
@@ -88,7 +88,7 @@
 - 다른 헤더와 동일한 구조를 따른다.
 - `대소문자 상관 없는 문자열:헤더에 따라 다른 값` 형식이다.
 - 다양한 종류의 header가 있는데 다음과 같은 그룹으로 나눌 수 있다.
-    - General, Request, Entity
+    - [General, Request, Entity](./Header.md)
 
 ### 3. body
 - 응답의 마지막 부분에 존재한다.
