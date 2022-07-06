@@ -99,17 +99,17 @@ HTTP 요청에서 사용되지만 request context와는 관련이 없는 헤더�
 - accept는 부속 속성이 있다. (`accept-*`)
 
 ```
-Accept: application/json, text/plain, */*
+accept: application/json, text/plain, */*
 -> json > text > all type 순서로 받는다는 표현이다.
 
-Accept-Language: en-US,en;q=0.5
+accept-language: en-US,en;q=0.5
 -> 언어는 en이라는 표현이다. q는 가중치다.
 
-Accept-Encoding: gzip, deflate, br
+accept-encoding: gzip, deflate, br
 -> gzip, deflate, br(Brotli) 등등의 압축 포맷을 받는다는 표현이다.
 ```
 
-#### 2. User-Agent
+#### 2. user-agent
 - 요청자의 소프트웨어 정보를 나타낸다. 
     - 소프트웨어 정보 : OS, 브라우저, 기타 버전 정보
 
@@ -136,6 +136,42 @@ referrer-policy: 얼마나 많은 리퍼러 정보를 포함하는지 알려준�
 ### Response Header [^4]
 위치 또는 서버의 정보(이름, 버전)와 같이 응답에 대한 부가적인 정보를 갖는 헤더이다.
 
+#### 1. age
+- max-age 내에서 캐시가 얼마나 지났는지 초 단위로 표현한다.
+
+```
+age: 24
+```
+
+#### 2. location
+- 리다이렉션할 페이지를 나타낸다.
+- 3XX(redirect)나 201(created) 상태 응답과 함께 제공될 때 사용한다.
+
+```
+location: https://en.dict.naver.com/#/main
+```
+
+#### 3. server
+- 서버의 정보를 나타낸다.
+
+```
+server: nfront
+```
+
+#### 4. set-cookie
+- 서버에서 사용자에게 쿠키 정보를 전달한다.
+
+```
+set-cookie: JSESSIONID=7D165AD9131K546279Od515632190; Path=/; HttpOnly
+```
+
+#### 5. date
+- 서버 응답 메시지가 생성된 시간을 나타낸다.
+
+```
+date: Wed, 06 Jul 2022 11:26:50 GMT
+```
+
 ### Entity Header [^5]
 컨텐츠 길이나 MIME 타입과 같이 Entity Body에 대한 자세한 정보를 포함하는 헤더이다.
 
@@ -146,3 +182,4 @@ referrer-policy: 얼마나 많은 리퍼러 정보를 포함하는지 알려준�
 [^3] https://developer.mozilla.org/ko/docs/Glossary/Request_header<br>
 [^4] https://developer.mozilla.org/ko/docs/Glossary/Response_header<br>
 [^5] https://developer.mozilla.org/ko/docs/Glossary/Entity_header
+
