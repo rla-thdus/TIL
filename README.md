@@ -5,6 +5,7 @@
 ## Python
 - [List와 Tuple의 차이점](https://github.com/rla-thdus/TIL/blob/main/Python/List_vs_Tuple.md)
 - [동일성과 동등성 비교](https://github.com/rla-thdus/TIL/blob/main/Python/Identity_vs_Equality.md)
+- [Generator은 무엇이고 왜 사용할까](https://github.com/rla-thdus/TIL/blob/main/Python/Generator.md)
 
 ## Network
 ### Http
