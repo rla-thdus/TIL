@@ -80,6 +80,6 @@ sleep 1 sec
 
 ---
 
-[^1] https://docs.python.org/3/glossary.html#term-generator
-[^2] https://docs.python.org/3/glossary.html#term-generator-iterator
-[^3] https://docs.python.org/3/reference/expressions.html#grammar-token-python-grammar-yield_expression
+[^1] https://docs.python.org/3/glossary.html#term-generator<br>
+[^2] https://docs.python.org/3/glossary.html#term-generator-iterator<br>
+[^3] https://docs.python.org/3/reference/expressions.html#grammar-token-python-grammar-yield_expression<br>
