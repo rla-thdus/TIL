@@ -4,6 +4,7 @@
 > 함수 안에서 `yield` 를 사용해서 Generator를 만들 수 있다.
 
 #### yield란
+일반 함수와 generator 함수를 구분할 수 있는 핵심적인 부분이다. generator 함수를 실행하다가 `yield` 를 만나면 그 상태로 정지하면서 값은 `next()` 를 호출한 곳에 전달하고 그 상태를 유지한다. 그리고 다시 실행이 되면 `yield` 의 다음 코드부터 실행된다.
 
 ## Generator Expression
 Generator 함수를 좀 더 쉽게 사용하기 위해서 Generator Expression을 제공한다.<br>
