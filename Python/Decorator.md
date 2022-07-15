@@ -6,7 +6,7 @@
 ### 언제 데코레이터를 사용할까
 - 디버깅을 하거나, 함수 실행에 걸린 시간을 측정하고 싶을 때, 혹은 함수 실행 전 해줘야 하는 작업이 있거나 실행이 끝나고 나서 해줘야 하는 작업이 있을 경우에 사용하는 것 같다.
 
-## 만드는 방법
+## 일반적으로 만드는 방법
 ### 함수 데코레이터
 1. 데코레이터 함수를 만들고 호출할 함수를 파라미터로 받는다.
 2. 1번에서 만든 데코레이터 함수 안에서, 호출할 함수를 감싸는 `wrapper` 함수를 만든다.
@@ -41,6 +41,84 @@ class Decorator:
         self.func()
 
 @Decorator
+def print_hello():
+    print('hello')
+```
+
+## 함수에 파라미터 값을 받을 때 사용하는 데코레이터 만들기
+### 함수 데코레이터
+1. 데코레이터 기본 형태로 만든다.
+2. 함수에서 사용할 파라미터를 데코레이터 안의 `wrapper` 함수에 파라미터로 넣어준다.
+3. 함수 호출할 때 파라미터 값을 같이 준다.
+
+```python
+def decorator(func):
+    def wrapper(name):
+        func(name)
+    return wrapper
+
+@decorator
+def print_hello(name):
+    print('hello, ' + name)
+```
+
+### 클래스 데코레이터
+1. 클래스 데코레이터 기본 형태로 만든다.
+2. 함수에서 사용할 파라미터를 `__call__` 함수에서 파라미터로 받는다.
+3. 함수 호출할 때 파라미터 값을 같이 넣어준다.
+
+```python
+class Decorator:
+    def __init__(self, func):
+        self.func = func
+
+    def __call__(self, name):
+        self.func(name)
+
+@Decorator
+def print_hello(name):
+    print('hello, ' + name)
+```
+
+## 파라미터가 있는 데코레이터 만들기
+### 함수 데코레이터
+1. 일반 데코레이터 만드는 것처럼 만든다.
+2. 데코레이터를 감싸는 함수를 만들고 사용할 파라미터를 받는다.
+3. 안에 감싸진 데코레이터를 리턴받는다.
+
+```python
+def outer_decorator(name):
+    def inner_decorator(func):
+        def wrapper():
+            func()
+            print(name)
+        return wrapper
+    return inner_decorator
+
+@outer_decorator('soyeon')
+def print_hello():
+    print('hello')
+```
+
+### 클래스 데코레이터
+1. `__init__` 에서 데코레이터가 사용할 파라미터를 받는다.
+2. `__call__` 메서드 안에 호출할 함수를 파라미터로 받는다.
+3. `__call__` 안에서 호출할 함수를 감싸는 `wrapper` 함수를 만든다.
+4. `wrapper` 함수 안에서 호출할 함수를 실행시킨다.
+5. `__call__`에서 마지막에 `wrapper` 를 리턴해준다.
+
+```python
+class Decorator:
+    def __init__(self, name):
+        self.name = name
+
+    def __call__(self, func):
+        def wrapper():
+            func()
+            print(self.name)
+        return wrapper
+
+@Decorator('soyeon')
 def print_hello():
     print('hello')
 ```
