@@ -8,6 +8,7 @@
 - [Generator은 무엇이고 왜 사용할까](https://github.com/rla-thdus/TIL/blob/main/Python/Generator.md)
 - [List append와 extend 차이점](https://github.com/rla-thdus/TIL/blob/main/Python/List_Append_vs_List_Extend.md)
 - [Decorator는 무엇이고 어떨때 사용할까](https://github.com/rla-thdus/TIL/blob/main/Python/Decorator.md)
+= [def와 lambda는 각각 언제 사용하는게 좋을까](https://github.com/rla-thdus/TIL/blob/main/Python/Def_vs_Lambda.md)
 
 ## Network
 ### Http
