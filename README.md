@@ -11,6 +11,7 @@
 = [def와 lambda는 각각 언제 사용하는게 좋을까](https://github.com/rla-thdus/TIL/blob/main/Python/Def_vs_Lambda.md)
 
 ## Network
+- [IP 프로토콜의 한계](https://github.com/rla-thdus/TIL/blob/main/Network/IP.md)
 ### Http
 - [HTTP란](https://github.com/rla-thdus/TIL/blob/main/Network/HTTP/HTTP.md)
 - [HTTP Message](https://github.com/rla-thdus/TIL/blob/main/Network/HTTP/HTTP_Message.md)
@@ -26,6 +27,7 @@
 - [nl 사용법](https://github.com/rla-thdus/TIL/blob/main/Linux/Command/nl.md)
 - [sort 사용법](https://github.com/rla-thdus/TIL/blob/main/Linux/Command/sort.md)
 - [wc 사용법](https://github.com/rla-thdus/TIL/blob/main/Linux/Command/wc.md)
+- [중복된 내용을 제거하는 uniq 사용법](https://github.com/rla-thdus/TIL/blob/main/Linux/Command/uniq.md)
 
 ## Architecture Pattern
 - [mvc 패턴이란](https://github.com/rla-thdus/TIL/blob/main/ArchitecturePattern/mvc.md)
