@@ -44,6 +44,18 @@ TCP 헤더의 길이를 나타낸다.
 #### 긴급 포인터 (Urgent Point)
 세그먼트가 긴급 데이터를 포함하고 있을 경우를 알린다.
 
+## 3 way handshake을 통한 연결 수립
+![](./Image/3way-handshake.png)
+
+### SYN (접속 요청)
+클라이언트가 서버에게 통신을 위한 연결을 요청을 하기 위해서 SYN 데이터를 보낸다. 이때 클라이언트는 SYN-ACK 응답을 기다리는 SYN-SENT 상태가 된다.
+
+### SYN-ACK (요청 수락)
+서버에서 요청을 잘 받았다는 대답(ACK)과 클라이언트도 포트 열어달라는 SYN을 같이 보낸다.이때 서버는 SYN-RECEIVED 상태이다.
+
+### ACK (수락 확인)
+클라이언트는 SYN-ACK 응답을 받고 ESTABLISHED 상태가 된다. 그리고 서버에 요청을 잘 받았다는 ACK를 보낸다. 그럼 서버는 ESTABLISHED 상태가 된다.
+
 ---
 
 [^1] http://www.kocw.net/home/search/kemView.do?kemId=1169634<br>
