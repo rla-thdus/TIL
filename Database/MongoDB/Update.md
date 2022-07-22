@@ -22,7 +22,7 @@ $ db.collection.updateMany(
     }
 )
 
-# target 값이 존재하지 않으면서 model이 Baby인 것만 target 값으로 adult를 준다.
+# target 값이 존재하지 않으면서 model이 Baby인 것만 target 값으로 infant를 준다.
 $ db.collection.updateMany(
     {
         'Custom.TrainCourse.Target': {$exists: false},
