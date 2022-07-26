@@ -14,6 +14,7 @@
 - [IP 프로토콜의 한계](https://github.com/rla-thdus/TIL/blob/main/Network/IP.md)
 - [TCP와 UDP의 차이점](https://github.com/rla-thdus/TIL/blob/main/Network/TCP%26UDP.md)
 - [port가 없으면 어떻게 될까](https://github.com/rla-thdus/TIL/blob/main/Network/Port.md)
+- [DNS 동작 순서](https://github.com/rla-thdus/TIL/blob/main/Network/DNS.md)
 ### Http
 - [HTTP란](https://github.com/rla-thdus/TIL/blob/main/Network/HTTP/HTTP.md)
 - [HTTP Message](https://github.com/rla-thdus/TIL/blob/main/Network/HTTP/HTTP_Message.md)
