@@ -9,6 +9,7 @@
 - [List append와 extend 차이점](https://github.com/rla-thdus/TIL/blob/main/Python/List_Append_vs_List_Extend.md)
 - [Decorator는 무엇이고 어떨때 사용할까](https://github.com/rla-thdus/TIL/blob/main/Python/Decorator.md)
 - [def와 lambda는 각각 언제 사용하는게 좋을까](https://github.com/rla-thdus/TIL/blob/main/Python/Def_vs_Lambda.md)
+- [*args와 **kwargs 차이](https://github.com/rla-thdus/TIL/blob/main/Python/args_vs_kwargs.md)
 
 ## Network
 - [IP 프로토콜의 한계](https://github.com/rla-thdus/TIL/blob/main/Network/IP.md)
