@@ -10,6 +10,7 @@
 - [Decorator는 무엇이고 어떨때 사용할까](https://github.com/rla-thdus/TIL/blob/main/Python/Decorator.md)
 - [def와 lambda는 각각 언제 사용하는게 좋을까](https://github.com/rla-thdus/TIL/blob/main/Python/Def_vs_Lambda.md)
 - [*args와 **kwargs 차이](https://github.com/rla-thdus/TIL/blob/main/Python/args_vs_kwargs.md)
+- [함수를 정의할 때 default value 를 non-default value 앞에 정의하면 안되는 이유](https://github.com/rla-thdus/TIL/blob/main/Python/parameters.md)
 
 ## Network
 - [IP 프로토콜의 한계](https://github.com/rla-thdus/TIL/blob/main/Network/IP.md)
