@@ -28,6 +28,7 @@
 - [Session](https://github.com/rla-thdus/TIL/blob/main/Network/HTTP/Session.md)
 
 ## Database
+- [RDBMS란](https://github.com/rla-thdus/TIL/blob/main/Database/RDBMS.md)
 ### MongoDB
 - [데이터 업데이트는 어떻게 할까](https://github.com/rla-thdus/TIL/blob/main/Database/MongoDB/Update.md)
 
