@@ -11,6 +11,7 @@
 - [def와 lambda는 각각 언제 사용하는게 좋을까](https://github.com/rla-thdus/TIL/blob/main/Python/Def_vs_Lambda.md)
 - [*args와 **kwargs 차이](https://github.com/rla-thdus/TIL/blob/main/Python/args_vs_kwargs.md)
 - [함수를 정의할 때 default value 를 non-default value 앞에 정의하면 안되는 이유](https://github.com/rla-thdus/TIL/blob/main/Python/parameters.md)
+- [언제 인자라 하고 또 언제 매개 변수라고 할까](https://github.com/rla-thdus/TIL/blob/main/Python/Argument_vs_Parameter.md)
 
 ## Network
 - [IP 프로토콜의 한계](https://github.com/rla-thdus/TIL/blob/main/Network/IP.md)
@@ -31,6 +32,9 @@
 - [RDBMS란](https://github.com/rla-thdus/TIL/blob/main/Database/RDBMS.md)
 ### MongoDB
 - [데이터 업데이트는 어떻게 할까](https://github.com/rla-thdus/TIL/blob/main/Database/MongoDB/Update.md)
+
+## Refactoring
+- [리팩토링은 도대체 뭘까](https://github.com/rla-thdus/TIL/blob/main/Refactoring/what_is_refactoring.md)
 
 ## Linux
 ### command
