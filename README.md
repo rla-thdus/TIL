@@ -37,6 +37,9 @@
 ## Refactoring
 - [리팩토링은 도대체 뭘까](https://github.com/rla-thdus/TIL/blob/main/Refactoring/what_is_refactoring.md)
 
+## OS
+- [OS가 하는 일](https://github.com/rla-thdus/TIL/blob/main/OS/what_is_operating_system.md)
+
 ## Linux
 ### command
 - [head, tail 사용법](https://github.com/rla-thdus/TIL/blob/main/Linux/Command/head_tail.md)
