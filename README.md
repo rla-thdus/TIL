@@ -39,6 +39,7 @@
 
 ## OS
 - [OS가 하는 일](https://github.com/rla-thdus/TIL/blob/main/OS/what_is_operating_system.md)
+- [프로세스와 스레드란](https://github.com/rla-thdus/TIL/blob/main/OS/process_vs_thread.md)
 
 ## Linux
 ### command
