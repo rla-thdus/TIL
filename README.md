@@ -55,6 +55,7 @@
 - [vim에서 매크로 설정 후 사용하는 방법](https://github.com/rla-thdus/TIL/blob/main/Vim/Macro.md)
 - [문자열 검색하는 방법](https://github.com/rla-thdus/TIL/blob/main/Vim/string_search.md)
 - [문자열 치환하는 방법](https://github.com/rla-thdus/TIL/blob/main/Vim/string_replacement.md)
+- [정규 표현식 사용 방법](https://github.com/rla-thdus/TIL/blob/main/Vim/use_regular_expression.md)
 
 ## Architecture Pattern
 - [mvc 패턴이란](https://github.com/rla-thdus/TIL/blob/main/ArchitecturePattern/mvc.md)
