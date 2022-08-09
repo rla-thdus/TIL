@@ -33,6 +33,7 @@
 - [RDBMS란](https://github.com/rla-thdus/TIL/blob/main/Database/RDBMS.md)
 ### MongoDB
 - [데이터 업데이트는 어떻게 할까](https://github.com/rla-thdus/TIL/blob/main/Database/MongoDB/Update.md)
+- [데이터 여러 개 삽입하는 방법](https://github.com/rla-thdus/TIL/blob/main/Database/MongoDB/InsertMany.md)
 
 ## Refactoring
 - [리팩토링은 도대체 뭘까](https://github.com/rla-thdus/TIL/blob/main/Refactoring/what_is_refactoring.md)
