@@ -13,6 +13,7 @@
 - [함수를 정의할 때 default value 를 non-default value 앞에 정의하면 안되는 이유](https://github.com/rla-thdus/TIL/blob/main/Python/parameters.md)
 - [언제 인자라 하고 또 언제 매개 변수라고 할까](https://github.com/rla-thdus/TIL/blob/main/Python/Argument_vs_Parameter.md)
 - [*.pyc 파일이 생성되는 이유](https://github.com/rla-thdus/TIL/blob/main/Python/pyc.md)
+- [Docstring vs Comment](https://github.com/rla-thdus/TIL/blob/main/Python/Docstring.md)
 
 ## Network
 - [IP 프로토콜의 한계](https://github.com/rla-thdus/TIL/blob/main/Network/IP.md)
