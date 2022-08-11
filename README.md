@@ -52,6 +52,7 @@
 - [중복된 내용을 제거하는 uniq 사용법](https://github.com/rla-thdus/TIL/blob/main/Linux/Command/uniq.md)
 - [cut으로 데이터 조작하기](https://github.com/rla-thdus/TIL/blob/main/Linux/Command/cut.md)
 - [tr로 변환해서 출력하기](https://github.com/rla-thdus/TIL/blob/main/Linux/Command/tr.md)
+- [sed로 원본 파일 바꾸지 않으면서 편집기처럼 사용하기](https://github.com/rla-thdus/TIL/blob/main/Linux/Command/sed.md)
 
 ## Vim
 - [vim에서 매크로 설정 후 사용하는 방법](https://github.com/rla-thdus/TIL/blob/main/Vim/Macro.md)
