@@ -35,6 +35,7 @@
 ### MongoDB
 - [데이터 업데이트는 어떻게 할까](https://github.com/rla-thdus/TIL/blob/main/Database/MongoDB/Update.md)
 - [데이터 여러 개 삽입하는 방법](https://github.com/rla-thdus/TIL/blob/main/Database/MongoDB/InsertMany.md)
+- [데이터 가공하는 다른 방법](https://github.com/rla-thdus/TIL/blob/main/Database/MongoDB/aggreate.md)
 
 ## Refactoring
 - [리팩토링은 도대체 뭘까](https://github.com/rla-thdus/TIL/blob/main/Refactoring/what_is_refactoring.md)
