@@ -14,6 +14,7 @@
 - [언제 인자라 하고 또 언제 매개 변수라고 할까](https://github.com/rla-thdus/TIL/blob/main/Python/Argument_vs_Parameter.md)
 - [*.pyc 파일이 생성되는 이유](https://github.com/rla-thdus/TIL/blob/main/Python/pyc.md)
 - [Docstring vs Comment](https://github.com/rla-thdus/TIL/blob/main/Python/Docstring.md)
+- [string prefix?](https://github.com/rla-thdus/TIL/blob/main/Python/string_prefix.md)
 
 ## Network
 - [IP 프로토콜의 한계](https://github.com/rla-thdus/TIL/blob/main/Network/IP.md)
