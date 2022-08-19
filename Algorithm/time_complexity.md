@@ -33,8 +33,8 @@ O(1) < O(log n) < O(n) < O(nlog n) < O(n^2) < O(2^n)<br>
 
 --- 
 
-[^1] https://en.wikipedia.org/wiki/Big_O_notation
-[^2] https://medium.com/interviewnoodle/the-big-o-notation-42fb66bc3152
-[^3] https://www.javatpoint.com/big-O-notation-in-data-structure
+[^1] https://en.wikipedia.org/wiki/Big_O_notation<br>
+[^2] https://medium.com/interviewnoodle/the-big-o-notation-42fb66bc3152<br>
+[^3] https://www.javatpoint.com/big-O-notation-in-data-structure<br>
 [^4] https://realpython.com/sorting-algorithms-python/#the-importance-of-sorting-algorithms-in-python
 
