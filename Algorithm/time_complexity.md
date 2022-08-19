@@ -24,7 +24,7 @@ O(2n^2 + 2n + 2) -> O(N^2)
 ```
 
 ## 성능 비교
-![](./Image/compare_big_o_functions.pngs)
+![](./Image/compare_big_o_functions.png)
 
 O(1) < O(log n) < O(n) < O(nlog n) < O(n^2) < O(2^n)<br>
 (상수 < 로그 < 선형 < 다항 < 지수)<br>
