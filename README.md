@@ -46,6 +46,8 @@
 - [프로세스와 스레드란](https://github.com/rla-thdus/TIL/blob/main/OS/process_vs_thread.md)
 
 ## Linux
+- [디렉토리 구조는 어떻게 이루어질까](https://github.com/rla-thdus/TIL/blob/main/Linux/directory_structure.md)
+
 ### command
 - [head, tail 사용법](https://github.com/rla-thdus/TIL/blob/main/Linux/Command/head_tail.md)
 - [nl 사용법](https://github.com/rla-thdus/TIL/blob/main/Linux/Command/nl.md)
