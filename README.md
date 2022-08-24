@@ -47,6 +47,7 @@
 
 ## Linux
 - [디렉토리 구조는 어떻게 이루어질까](https://github.com/rla-thdus/TIL/blob/main/Linux/directory_structure.md)
+- [가상화란](https://github.com/rla-thdus/TIL/blob/main/Linux/virtualization.md)
 
 ### command
 - [head, tail 사용법](https://github.com/rla-thdus/TIL/blob/main/Linux/Command/head_tail.md)
