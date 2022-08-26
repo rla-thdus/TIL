@@ -28,5 +28,15 @@
 ### inode
 - 파일이나 디렉토리에 대한 모든 정보를 가지고 있다.
 
-
 ## 파일 시스템 종류
+### 리눅스 전용 디스크 기반 파일 시스템
+- EXT, EXT2, EXT3, EXT4
+
+### 저널링 파일 시스템
+- JFS, XFS, ReiserFS
+
+### 네트워크 파일 시스템
+- SMB, CIFS, NFS, EXT4
+
+### 기타 파일 시스템
+- FAT, VFAT, FAT32, NTFS, ISO 9660, UDF, HPFS
