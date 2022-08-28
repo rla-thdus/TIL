@@ -16,6 +16,7 @@
 - [Docstring vs Comment](https://github.com/rla-thdus/TIL/blob/main/Python/Docstring.md)
 - [string prefix?](https://github.com/rla-thdus/TIL/blob/main/Python/string_prefix.md)
 - [__init__메서드를 생서자라고 하는 이유](https://github.com/rla-thdus/TIL/blob/main/Python/__new__vs__init__.md)
+- [global 키워드와 nonlocal 키워드 차이](https://github.com/rla-thdus/TIL/blob/main/Python/global_vs_nonlocal.md)
 
 ## Network
 - [IP 프로토콜의 한계](https://github.com/rla-thdus/TIL/blob/main/Network/IP.md)
