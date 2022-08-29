@@ -202,25 +202,22 @@ hello
 
 ## 원래 함수 이름이 안나올 땐 어떻게 할까
 - 데코레이터를 여러 개 사용하게 되면, 데코레이터에서 반환된 `wrapper` 함수가 다른 데코레이터로 들어가게 된다. 따라서 함수의 이름(`__name__`)을 출력하면 `wrapper` 가 나온다.
+- @functools.wraps 를 사용하면 원래 함수의 정보를 유지할 수 있다.
 
 ```python
-from functools import wraps
+import functools
 
-def decorator1(func):
-    def wrapper():
-        print("decorator1 : " + func.__name__)
-        func()
-    return wrapper
+def decorator(x):
+    def real_decorator(func):
+        @functools.wraps(func)
+        def wrapper():
+            print("decorator1 : " + func.__name__)
+            print("x: " + str(x))
+            func()
+        return wrapper
+    return real_decorator
 
-def decorator2(func):
-    @wraps(func)
-    def wrapper():
-        print("decorator2 : " + func.__name__)
-        func()
-    return wrapper
-
-@decorator1
-@decorator2
+@decorator(1)
 def print_hello():
     print('hello')
 
@@ -230,7 +227,7 @@ print_hello()
 #### 실행 결과
 ```
 decorator1 : print_hello
-decorator2
+x: 1
 hello
 ```
 
