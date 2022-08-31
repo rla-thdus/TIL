@@ -59,6 +59,61 @@ print(Calculator.add(10))
 하지만 정적 메서드는 인스턴스 메서드, 클래스 메서드와 달리 첫 번째 인자에 아무것도 넘어오지 않기 때문에<br>
 클래스 속성에 접근하는 것도 안되고, 클래스 함수를 호출하는 것도 할 수 없다.
 
+## 상속받을 때의 차이
+
+`@staticmethod` 의 경우에는 상위 클래스의 속성 값을 가져오지만,<br>
+`@classmethod` 의 경우에는 `cls` 인자를 사용해서 해당 클래스의 속성을 가져온다.
+
+### static method
+```python
+class Person:
+    name = "ksy"
+    
+    @staticmethod
+    def set_name_static(name):
+        Person.name = name
+
+class Student(Person):
+    pass
+
+Person.set_name_static("syk")
+print(Person.name)
+print(Student.name)
+
+Student.set_name_static("k s y")
+print(Person.name)
+print(Student.name)
+----------------------------------
+syk
+syk
+k s y
+k s y
+```
+
+### class method
+```python
+class Person:
+    @classmethod
+    def set_name_class(cls, name):
+        cls.name = name
+
+class Student(Person):
+    pass
+
+Person.set_name_class("syk")
+print(Person.name)
+print(Student.name)
+
+Student.set_name_class("k s y")
+print(Person.name)
+print(Student.name)
+-----------------------------------
+syk
+syk
+syk
+k s y
+```
+
 ---
 
 [^1] https://docs.python.org/3/library/functions.html#classmethod<br>
