@@ -15,7 +15,7 @@
 - [*.pyc 파일이 생성되는 이유](https://github.com/rla-thdus/TIL/blob/main/Python/pyc.md)
 - [Docstring vs Comment](https://github.com/rla-thdus/TIL/blob/main/Python/Docstring.md)
 - [string prefix?](https://github.com/rla-thdus/TIL/blob/main/Python/string_prefix.md)
-- [__init__메서드를 생서자라고 하는 이유](https://github.com/rla-thdus/TIL/blob/main/Python/__new__vs__init__.md)
+- [__init__메서드를 생성자라고 하는 이유](https://github.com/rla-thdus/TIL/blob/main/Python/__new__vs__init__.md)
 - [global 키워드와 nonlocal 키워드 차이](https://github.com/rla-thdus/TIL/blob/main/Python/global_vs_nonlocal.md)
 - [static method와 class method 비교](https://github.com/rla-thdus/TIL/blob/main/Python/staticmethod_vs_classmethod.md)
 
@@ -77,3 +77,4 @@
 
 ## Etc
 - [rest란](https://github.com/rla-thdus/TIL/blob/main/Etc/rest.md)
+- [compiler vs interpreter](https://github.com/rla-thdus/TIL/blob/main/Etc/compiler_vs_interpreter.md)
