@@ -28,6 +28,7 @@
 - [port가 없으면 어떻게 될까](https://github.com/rla-thdus/TIL/blob/main/Network/Port.md)
 - [DNS 동작 순서](https://github.com/rla-thdus/TIL/blob/main/Network/DNS.md)
 - [URI, URL, URN이란](https://github.com/rla-thdus/TIL/blob/main/Network/URI.md)
+- [foward proxy vs reverse proxy](https://github.com/rla-thdus/TIL/blob/main/Network/forward_proxy_vs_reverse_proxy.md)
 ### Http
 - [HTTP란](https://github.com/rla-thdus/TIL/blob/main/Network/HTTP/HTTP.md)
 - [HTTP Message](https://github.com/rla-thdus/TIL/blob/main/Network/HTTP/HTTP_Message.md)
