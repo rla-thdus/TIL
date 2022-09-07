@@ -46,6 +46,7 @@
 - [데이터 가공하는 다른 방법](https://github.com/rla-thdus/TIL/blob/main/Database/MongoDB/aggreate.md)
 - [데이터에 특정 필드가 존재하는지 확인하는 방법](https://github.com/rla-thdus/TIL/blob/main/Database/MongoDB/exists.md)
 - [바이너리 데이터베이스 덤프를 복원하는 방법](https://github.com/rla-thdus/TIL/blob/main/Database/MongoDB/mongorestore.md)
+- [데이터베이스를 바이너리로 내보내는 방법](https://github.com/rla-thdus/TIL/blob/main/Database/MongoDB/mongodump.md)
 
 ## Refactoring
 - [리팩토링은 도대체 뭘까](https://github.com/rla-thdus/TIL/blob/main/Refactoring/what_is_refactoring.md)
