@@ -19,6 +19,7 @@
 - [global 키워드와 nonlocal 키워드 차이](https://github.com/rla-thdus/TIL/blob/main/Python/global_vs_nonlocal.md)
 - [static method와 class method 비교](https://github.com/rla-thdus/TIL/blob/main/Python/staticmethod_vs_classmethod.md)
 - [에러와 예외의 차이](https://github.com/rla-thdus/TIL/blob/main/Python/error_vs_exception.md)
+- [반목문 안에서 pass와 continue의 차이](https://github.com/rla-thdus/TIL/blob/main/Python/pass_vs_continue.md)
 
 ## Docker
 -[도커를 사용하는 이유](https://github.com/rla-thdus/TIL/blob/main/Docker/what_is_docker.md)
