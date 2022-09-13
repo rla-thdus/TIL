@@ -20,6 +20,7 @@
 - [static method와 class method 비교](https://github.com/rla-thdus/TIL/blob/main/Python/staticmethod_vs_classmethod.md)
 - [에러와 예외의 차이](https://github.com/rla-thdus/TIL/blob/main/Python/error_vs_exception.md)
 - [반목문 안에서 pass와 continue의 차이](https://github.com/rla-thdus/TIL/blob/main/Python/pass_vs_continue.md)
+- [json loads와 dumps는 각각 어떨 때 사용할까](https://github.com/rla-thdus/TIL/blob/main/Python/json_loads_vs_dumps.md)
 
 ## Docker
 -[도커를 사용하는 이유](https://github.com/rla-thdus/TIL/blob/main/Docker/what_is_docker.md)
