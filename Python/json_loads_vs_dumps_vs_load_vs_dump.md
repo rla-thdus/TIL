@@ -49,6 +49,55 @@ print(json_string2)
 }
 ```
 
+# json.load()
+json 파일에 저장된 데이터를 읽어서 파이썬 객체로 불러오고 싶을 때 사용한다.<br>
+json 포맷의 HTTP response body를 읽을 때도 사용된다.
+
+- info.json
+```json
+{
+  "name": "소연",
+  "age": 20,
+  "blood_type": "A"
+}
+```
+
+```python
+import json
+
+with open('info.json') as f:
+    json_object = json.load(f)
+
+assert json_object['name'] == "소연"
+assert json_object['age'] == 20
+```
+
+# json.dump()
+파이썬 객체를 json으로 인코딩 된 파일로 저장하고 싶을 때 사용한다.<br>
+json 포맷의 HTTP request body를 쓸 때도 사용된다.
+
+```python
+import json
+
+json_object = {
+    "name": "소연",
+    "age": 20,
+    "blood_type": "A",
+}
+
+with open('info.json', 'w') as f:
+    json.dump(json_object, f, indent=2)
+```
+
+- info.json
+```json
+{
+  "name": "소연",
+  "age": 20,
+  "blood_type": "A"
+}
+```
+
 ---
 
 [^1] https://docs.python.org/ko/3/library/json.html<br>
