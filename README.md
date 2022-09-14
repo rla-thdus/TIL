@@ -21,6 +21,7 @@
 - [에러와 예외의 차이](https://github.com/rla-thdus/TIL/blob/main/Python/error_vs_exception.md)
 - [반목문 안에서 pass와 continue의 차이](https://github.com/rla-thdus/TIL/blob/main/Python/pass_vs_continue.md)
 - [json loads와 dumps는 각각 어떨 때 사용할까](https://github.com/rla-thdus/TIL/blob/main/Python/json_loads_vs_dumps.md)
+- [파이썬의 삼항 연산자는 다른 언어와 어떻게 다를까](https://github.com/rla-thdus/TIL/blob/main/Python/ternary_operator.md)
 
 ## Docker
 -[도커를 사용하는 이유](https://github.com/rla-thdus/TIL/blob/main/Docker/what_is_docker.md)
