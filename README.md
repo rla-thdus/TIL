@@ -59,6 +59,7 @@
 ## OS
 - [OS가 하는 일](https://github.com/rla-thdus/TIL/blob/main/OS/what_is_operating_system.md)
 - [프로세스와 스레드란](https://github.com/rla-thdus/TIL/blob/main/OS/process_vs_thread.md)
+- [데드락이 발생하게 되는 4가지 조건](https://github.com/rla-thdus/TIL/blob/main/OS/deadlock.md)
 
 ## Linux
 - [디렉토리 구조는 어떻게 이루어질까](https://github.com/rla-thdus/TIL/blob/main/Linux/directory_structure.md)
