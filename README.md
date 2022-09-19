@@ -27,6 +27,7 @@
 
 ## Docker
 - [도커를 사용하는 이유](https://github.com/rla-thdus/TIL/blob/main/Docker/what_is_docker.md)
+- [사용할 이미지 다운받는 방법](https://github.com/rla-thdus/TIL/blob/main/Docker/how_to_pull_image.md)
 
 ## Network
 - [IP 프로토콜의 한계](https://github.com/rla-thdus/TIL/blob/main/Network/IP.md)
