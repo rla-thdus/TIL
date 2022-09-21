@@ -25,6 +25,7 @@
 - [unittest setUp() vs setUpClass()](https://github.com/rla-thdus/TIL/blob/main/Python/setup_vs_setupclass.md)
 - [assert 사용 방법](https://github.com/rla-thdus/TIL/blob/main/Python/assert.md)
 - [magic method는 무엇인가](https://github.com/rla-thdus/TIL/blob/main/Python/magic_Method.md)
+- [pip란](https://github.com/rla-thdus/TIL/blob/main/Python/pip.md)
 
 ## Docker
 - [도커를 사용하는 이유](https://github.com/rla-thdus/TIL/blob/main/Docker/what_is_docker.md)
