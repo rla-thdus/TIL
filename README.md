@@ -24,6 +24,7 @@
 - [파이썬의 삼항 연산자는 다른 언어와 어떻게 다를까](https://github.com/rla-thdus/TIL/blob/main/Python/ternary_operator.md)
 - [unittest setUp() vs setUpClass()](https://github.com/rla-thdus/TIL/blob/main/Python/setup_vs_setupclass.md)
 - [assert 사용 방법](https://github.com/rla-thdus/TIL/blob/main/Python/assert.md)
+- [magic method는 무엇인가](https://github.com/rla-thdus/TIL/blob/main/Python/magic_Method.md)
 
 ## Docker
 - [도커를 사용하는 이유](https://github.com/rla-thdus/TIL/blob/main/Docker/what_is_docker.md)
@@ -92,4 +93,4 @@
 ## Etc
 - [rest란](https://github.com/rla-thdus/TIL/blob/main/Etc/rest.md)
 - [compiler vs interpreter](https://github.com/rla-thdus/TIL/blob/main/Etc/compiler_vs_interpreter.md)
-- [WebRTC란](https://github.com/rla-thdus/TIL/blob/main/Etc/webrtc.md)
+- [WebRTC](https://github.com/rla-thdus/TIL/blob/main/Etc/webrtc.md)
