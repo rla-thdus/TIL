@@ -96,3 +96,4 @@
 - [rest란](https://github.com/rla-thdus/TIL/blob/main/Etc/rest.md)
 - [compiler vs interpreter](https://github.com/rla-thdus/TIL/blob/main/Etc/compiler_vs_interpreter.md)
 - [WebRTC](https://github.com/rla-thdus/TIL/blob/main/Etc/webrtc.md)
+- [ws를 사용하는 이유](https://github.com/rla-thdus/TIL/blob/main/Etc/was_vs_ws.md)
