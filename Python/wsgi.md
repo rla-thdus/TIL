@@ -28,4 +28,5 @@ WSGI Middleware에는 `uWSGI`, `Gunicorn`, `Werkzeug` 등이 있다.
 ---
 
 [^1] https://wsgi.readthedocs.io/en/latest/<br>
-[^2] 
+[^2] https://stackoverflow.com/questions/4929626/what-are-wsgi-and-cgi-in-plain-english<br>
+[^3] https://apirobot.me/posts/what-is-wsgi-and-why-do-you-need-gunicorn-and-nginx-in-django
