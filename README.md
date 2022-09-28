@@ -51,6 +51,7 @@
 
 ## Database
 - [RDBMS란](https://github.com/rla-thdus/TIL/blob/main/Database/RDBMS.md)
+- [트랜잭션 성질 및 상태](https://github.com/rla-thdus/TIL/blob/main/Database/transaction.md)
 ### MongoDB
 - [데이터 업데이트는 어떻게 할까](https://github.com/rla-thdus/TIL/blob/main/Database/MongoDB/Update.md)
 - [데이터 여러 개 삽입하는 방법](https://github.com/rla-thdus/TIL/blob/main/Database/MongoDB/InsertMany.md)
