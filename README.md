@@ -61,6 +61,9 @@
 - [바이너리 데이터베이스 덤프를 복원하는 방법](https://github.com/rla-thdus/TIL/blob/main/Database/MongoDB/mongorestore.md)
 - [데이터베이스를 바이너리로 내보내는 방법](https://github.com/rla-thdus/TIL/blob/main/Database/MongoDB/mongodump.md)
 
+## Git
+- [커밋 이전으로 되돌릴 때, reset vs revert](https://github.com/rla-thdus/TIL/blob/main/Git/reset_vs_revert.md)
+
 ## Refactoring
 - [리팩토링은 도대체 뭘까](https://github.com/rla-thdus/TIL/blob/main/Refactoring/what_is_refactoring.md)
 
