@@ -29,6 +29,7 @@
 - [poetry 의존성 관리자란](https://github.com/rla-thdus/TIL/blob/main/Python/poetry.md)
 - [wsgi란](https://github.com/rla-thdus/TIL/blob/main/Python/wsgi.md)
 - [enumerate를 사용하는 이유](https://github.com/rla-thdus/TIL/blob/main/Python/enumerate.md)
+- [switch case문이 존재하지 않는 이유](https://github.com/rla-thdus/TIL/blob/main/Python/switch_case.md)
 
 ## Docker
 - [도커를 사용하는 이유](https://github.com/rla-thdus/TIL/blob/main/Docker/what_is_docker.md)
