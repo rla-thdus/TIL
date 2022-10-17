@@ -37,6 +37,7 @@
 
 ## OOP
 - [객체 지향 프로그래밍이란?](https://github.com/rla-thdus/TIL/tree/main/OOP)
+- [오버라이딩과 오버로딩의 차이](https://github.com/rla-thdus/TIL/blob/main/OOP/overriding_vs_overloading.md)
 
 ## Network
 - [IP 프로토콜의 한계](https://github.com/rla-thdus/TIL/blob/main/Network/IP.md)
