@@ -103,6 +103,7 @@
 
 ## Algorithm
 - [시간 복잡도를 측정할 때 빅오 표기법을 사용하는 이유](https://github.com/rla-thdus/TIL/blob/main/Algorithm/time_complexity.md)
+- [다이나믹 프로그래밍, DP](https://github.com/rla-thdus/TIL/blob/main/Algorithm/dynamic_programming.md)
 
 ## Etc
 - [rest란](https://github.com/rla-thdus/TIL/blob/main/Etc/rest.md)
