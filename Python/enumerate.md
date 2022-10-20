@@ -27,9 +27,9 @@ for n, i in enumerate(['first', 'second', 'third']):
 for n, i in enumerate(['first', 'second', 'third'], start=1):
     print(n, i)
 
-0 first
-1 second
-2 third
+1 first
+2 second
+3 third
 ```
 
 # enumerate()를 사용하는 이유
