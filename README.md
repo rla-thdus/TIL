@@ -114,3 +114,4 @@
 - [ws를 사용하는 이유](https://github.com/rla-thdus/TIL/blob/main/Etc/was_vs_ws.md)
 - [동기 비동기 차이](https://github.com/rla-thdus/TIL/blob/main/Etc/synchronous_vs_asynchronous.md)
 - [jwt란](https://github.com/rla-thdus/TIL/blob/main/Etc/jwt.md)
+- [로드 밸런서란](https://github.com/rla-thdus/TIL/blob/main/Etc/load_balancer.md)
